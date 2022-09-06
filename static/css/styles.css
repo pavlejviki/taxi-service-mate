@@ -1,8 +1,42 @@
 body {
     margin-top: 20px;
+    background-color: #e3f2fd;
+    color: #3d5a80;
 }
 
 .link-to-page {
     float: right;
     margin: 0 2px 0 2px;
+}
+
+.sidebar {
+    background-color: #98c1d9;
+}
+
+a {
+    color: #fdc500;
+}
+
+.btn {
+    background-color: #3d5a80;
+    border: none;
+    color: #fdc500;
+}
+
+h1, h2, h3, h4 {
+    color: #fdc500;
+}
+
+.page-item.active .page-link {
+   background: #3d5a80;
+   border: none;
+   color: #fdc500;
+}
+
+.page-item a {
+    color: #3d5a80;
+}
+
+.table {
+    color: #3d5a80;
 }
