@@ -11,26 +11,34 @@ body {
 
 .sidebar {
     background-color: #98c1d9;
+    color: #3d5a80;
+    box-shadow: 1px 2px 3px 4px #3d5a80;
 }
 
 a {
-    color: #fdc500;
+    color: #3d5a80;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffe599;
 }
 
 .btn {
     background-color: #3d5a80;
     border: none;
-    color: #fdc500;
+    color: #ffe599;
 }
 
 h1, h2, h3, h4 {
-    color: #fdc500;
+    color: #ffe599;
+    text-shadow: 0 0 5px #3d5a80;
 }
 
 .page-item.active .page-link {
    background: #3d5a80;
    border: none;
-   color: #fdc500;
+   color: #ffe599;
 }
 
 .page-item a {
