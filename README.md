@@ -21,8 +21,10 @@ Python3 must be already installed
 git clone https://github.com/pavlejviki/taxi-service-mate
 cd taxi-service-mate
 python3 -m venv venv
-source venv/Scripts/activate (on Windows) # source venv/bin/activate (on macOS)
+source venv/bin/activate  # on macOS
+venv\Scripts\activate  # on Windows 
 pip install -r requirements.txt
+python manage.py migrate
 python manage.py runserver #starts Django Server
 ```
 
