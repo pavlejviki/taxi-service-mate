@@ -9,7 +9,7 @@ from taxi.models import Driver, Car
 def license_validation(license_number):
     if len(license_number) != 8:
         raise ValidationError("Ensure that the license number consist only of 8 characters")
-    if not license_number[:3].isupper():
+    if not license_number[:3].isupper() or not license_number[:3].isalpha():
         raise ValidationError("Ensure first 3 characters are uppercase letters")
     if not license_number[3:].isnumeric():
         raise ValidationError("Ensure last 5 characters are digits")
